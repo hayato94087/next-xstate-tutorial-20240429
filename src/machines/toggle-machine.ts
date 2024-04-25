@@ -10,6 +10,7 @@ export const toggleMachine = createMachine({
     },
     Active: {
       on: { toggle: 'Inactive' },
+      after: { 2000: 'Inactive' },
     },
   },
 });
