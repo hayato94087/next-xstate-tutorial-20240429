@@ -9,7 +9,7 @@ export const ToggleState = () => {
       <div>{JSON.stringify(state.value)}</div>
       <button
         onClick={() => send({ type: "toggle" })}
-        className="bg-blue-200 rounded-md py-1 px-3 text-slate-800 text-base"
+        className="bg-blue-200 rounded-md py-1 px-3 text-slate-800 text-base hover:bg-blue-400"
       >
         Toggle
       </button>
